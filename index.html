@@ -1,9 +1,375 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DMS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Digital Morocco School</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="logo dijital.png" alt="Logo" height="40" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Qui sommes nous ?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Formations</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Campus</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            <li class="nav-item">
+              <a class="btn btn-danger ms-3" href="#">Candidatez</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="py-5 text-center">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h1 class="display-5 fw-bold">
+              <h1 id="typing"></h1>
+
+              Formez-vous à la Tech simplement avec Digital Morocco School
+            </h1>
+            <p class="lead">
+              Découvrez une école où l'innovation, la créativité et les
+              technologies de pointe se rencontrent pour former les leaders de
+              demain
+            </p>
+            <a href="#" class="btn btn-danger">Candidatez</a>
+          </div>
+          <div class="col-md-6">
+            <img src="djtal.png" alt="Hero Image" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h2>Qui Somme Nous ?</h2>
+            <h2 id="texting"></h2>
+            <p>
+              <b>Digital Morocco School : L'école qui démocratise les métiers du numérique au Maroc</b>
+              Dans un monde où le numérique et les technologies de pointe sont omniprésents, Digital Morocco School s'engage à mettre le code entre toutes les mains. Notre mission ? Réduire les inégalités numériques en offrant à chacun l'opportunité d'acquérir des compétences en programmation, indépendamment de son parcours ou de ses ressources. Nous croyons en un avenir où tout le monde, sans exception, peut maîtriser le langage numérique et s'épanouir dans les métiers de la tech. Rejoignez-nous pour ouvrir des portes à un avenir numérique inclusif et innovant
+            </p>
+          </div>
+          <div class="col-md-6 text-center">
+            <img src="logo dijital.png" alt="About Image" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section class="py-5 bg-light">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 text-center">
+            <img src="foom.png" alt="Chart Image" class="img-fluid" />
+          </div>
+          <div class="col-md-6">
+            <h5 class="text-success">Pourquoi Nous ?</h5>
+            <h2>Pourquoi choisir Digital Morocco School ?</h2>
+            <ul class="list-unstyled">
+              <li>
+                <i class="bi bi-check2-circle text-success me-2"></i> Formations
+                100% gratuites
+              </li>
+              <li>
+                <i class="bi bi-check2-circle text-success me-2"></i> Approche
+                pratique
+              </li>
+              <li>
+                <i class="bi bi-check2-circle text-success me-2"></i> Focus sur
+                l'innovation
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Media Section -->
+    <section class="py-5">
+      <div class="container text-center">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <img
+              src="logo dijital.png"
+              alt="Video Placeholder"
+              class="img-fluid"
+            />
+            <p class="mt-3">
+              Découvrez ce que les médias disent de Digital Morocco School...
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-5 bg-secondary text-white text-center">
+      <div class="container">
+        <h3>Prêt à vous lancer dans les métiers du numérique ?</h3>
+        <p>Rejoignez-nous dès aujourd'hui et formez-vous gratuitement !</p>
+        <a href="#" class="btn btn-light">Candidatez</a>
+      </div>
+    </section>
+
+    <!-- Formations Section -->
+    <section class="py-5">
+      <div class="container">
+        <h5 class="text-success">Nos formations</h5>
+        <h2>Trouvez la formation qui vous correspond</h2>
+        <div class="row">
+          <div class="col-md-3 mb-4">
+            <div class="card h-100 text-center">
+              <img
+                src="https://via.placeholder.com/200x150"
+                class="card-img-top"
+                alt="Formation"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Formation Back-End</h5>
+                <a href="#" class="btn btn-danger">Enrol</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card h-100 text-center">
+              <img
+                src="https://via.placeholder.com/200x150"
+                class="card-img-top"
+                alt="Formation"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Formation Front-End</h5>
+                <a href="#" class="btn btn-danger">Enrol</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card h-100 text-center">
+              <img
+                src="https://via.placeholder.com/200x150"
+                class="card-img-top"
+                alt="Formation"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Full Stack Bootcamp</h5>
+                <a href="#" class="btn btn-danger">Enrol</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card h-100 text-center">
+              <img
+                src="https://via.placeholder.com/200x150"
+                class="card-img-top"
+                alt="Formation"
+              />
+              <div class="card-body">
+                <h5 class="card-title">IA Bootcamp</h5>
+                <a href="#" class="btn btn-danger">Enrol</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-5 bg-light">
+      <div class="container">
+        <h5 class="text-success">Contactez-nous</h5>
+        <div class="row">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Nom" />
+              </div>
+              <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Prénom" />
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control" placeholder="Email" />
+              </div>
+              <div class="mb-3">
+                <textarea
+                  class="form-control"
+                  rows="4"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-danger">Envoyer</button>
+            </form>
+          </div>
+          <div class="col-md-6 text-center">
+            <img
+              src="https://via.placeholder.com/400x300"
+              alt="Contact Image"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="py-5">
+      <div class="container text-center">
+        <h2 class="mb-4">Our Popular Courses</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img
+                src="https://via.placeholder.com/300x200"
+                class="card-img-top"
+                alt="Course 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Web Development</h5>
+                <p class="card-text">
+                  Learn HTML, CSS, JS & more to build websites.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img
+                src="https://via.placeholder.com/300x200"
+                class="card-img-top"
+                alt="Course 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Digital Marketing</h5>
+                <p class="card-text">
+                  Master SEO, Google Ads, Social Media & more.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img
+                src="https://via.placeholder.com/300x200"
+                class="card-img-top"
+                alt="Course 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Graphic Design</h5>
+                <p class="card-text">
+                  Learn Adobe tools and visual communication.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5 bg-light">
+      <div class="container text-center">
+        <h2 class="mb-4">What Our Students Say</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="p-4 bg-white shadow-sm rounded">
+              <p>
+                "I found my dream job after finishing their web dev course!"
+              </p>
+              <h6>- Amina L.</h6>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="p-4 bg-white shadow-sm rounded">
+              <p>
+                "The lessons are super clear and practical. Highly recommend."
+              </p>
+              <h6>- Youssef R.</h6>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="p-4 bg-white shadow-sm rounded">
+              <p>"Best platform in Morocco for digital skills!"</p>
+              <h6>- Sara B.</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="py-5">
+      <div class="container text-center">
+        <h2 class="mb-4">Watch Our Introduction Video</h2>
+        <div class="ratio ratio-16x9">
+          <iframe
+            width="120"
+            height="80"
+            src="https://www.youtube.com/embed/n7DTiogPJBM" title="Digital Maroc School à l’honneur sur 2M TV ! 2ème Promotion  pour former 1200 jeunes en 2 ans." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>"
+          >
+            title="Intro Video" allowfullscreen ></iframe
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Register Section -->
+    <section id="register" class="py-5 bg-primary text-white text-center">
+      <div class="container">
+        <h2>Ready to Get Started?</h2>
+        <p class="lead">Register now and start learning immediately!</p>
+        <a href="#" class="btn btn-light btn-lg">Create Account</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 text-center">
+      <p class="mb-0">
+        &copy; 2025 Digital Morocco School. All rights reserved.
+      </p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
